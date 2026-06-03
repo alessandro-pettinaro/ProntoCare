@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/status-progetto%20universitario-blue?style=flat-square)
 
-<img src="images/login.png" width="400" /> <img src="images/triage.png" width="400" />
+<img src="login.png" width="400" /> &nbsp;&nbsp;   <img src="SM.png" width="400" />
 
 ProntoCare è un'applicazione sviluppata in **Python** che gestisce le attività interne di un pronto soccorso: dall'accoglienza del paziente all'assegnazione della priorità di triage, fino alla gestione delle visite, dei ricoveri e della documentazione clinica.
 
