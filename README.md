@@ -140,8 +140,6 @@ I requisiti del sistema sono organizzati in cinque macro-categorie.
 
 - [Python 3.x](https://www.python.org/)
 
-> Se il progetto usa librerie esterne, elencale in un file `requirements.txt`.
-
 ---
 
 ## Installazione e avvio
@@ -152,9 +150,6 @@ git clone https://github.com/alessandro-pettinaro/ProntoCare.git
 
 # Entra nella cartella del progetto
 cd ProntoCare
-
-# (opzionale) installa le dipendenze
-pip install -r requirements.txt
 
 # Avvia l'applicazione
 python main.py
