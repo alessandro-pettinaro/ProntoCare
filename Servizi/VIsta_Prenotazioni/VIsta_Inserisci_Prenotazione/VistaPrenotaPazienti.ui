@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProntoSoccorso</class>
+ <widget class="QWidget" name="ProntoSoccorso">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>750</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>750</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(230, 235, 239);</string>
+  </property>
+  <widget class="QLabel" name="InformazioniProfilo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>5</y>
+     <width>581</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat SemiBold</family>
+     <pointsize>20</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(230, 235, 239,0);
+color: rgb(230, 235, 239);</string>
+   </property>
+   <property name="text">
+    <string>Prenotazione paziente</string>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonAnnulla">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>390</y>
+     <width>140</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat SemiBold</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+color: rgba(230, 235, 239,0.6);
+background-color: rgba(0, 57, 97,0);
+border-radius: 10px;
+}
+QPushButton:hover {
+background-color: rgba(40, 40, 40,0.5);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Annulla</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonPrenota">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>390</y>
+     <width>140</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat SemiBold</family>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: rgba(0, 57, 97,0);
+	color: rgb(230, 235, 239);
+color: rgb(230, 235, 239);
+border-radius: 10px;
+}
+QPushButton:hover {
+background-color: rgba(40, 40, 40,0.5);
+    }</string>
+   </property>
+   <property name="text">
+    <string>Prenota</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Sheda">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>290</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(230, 235, 239,0);
+border: 1px solid rgba(230, 235, 239,0.6);
+border-radius: 5px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat Medium</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0, 57, 97,0);
+color: rgb(230, 235, 239);
+
+border-radius: 6px;
+   
+
+</string>
+   </property>
+   <property name="text">
+    <string>Codice di emergenza:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>750</width>
+     <height>450</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat Medium</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../../MATERIALE/Back.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>290</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+background-color: rgba(0, 57, 97,0);
+color: rgb(230, 235, 239);
+border: 1px solid rgba(230, 235, 239,0.6);
+border-radius: 6px;
+padding: 5px;
+}
+                            
+QTextEdit:focus {
+background-color: rgba(40, 40, 40,0.7);
+}
+
+
+
+
+
+QScrollBar:vertical {
+background:rgba(0,0,0,0);
+width: 5px;
+margin: 0px 0 0px 0;
+
+
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+background-color: rgb(40, 40, 40);
+border-radius: 2.2px;
+}
+
+QScrollBar::handle:vertical {
+background-color: rgba(230, 235, 239,0.5);
+min-height: 20px;
+border-radius: 2px;
+}
+
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string>Inserisci Condizione del paziente</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LogoPrenotazioni">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>135</y>
+     <width>190</width>
+     <height>190</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(230, 235, 239,0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../../MATERIALE/IconaPrenotazioneomb.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>155</y>
+     <width>290</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat SemiBold</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgba(230, 235, 239,0.6);
+background-color: rgba(0, 57, 97,0);</string>
+   </property>
+   <property name="text">
+    <string>Prognosi</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>65</y>
+     <width>290</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat SemiBold</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgba(230, 235, 239,0.6);
+background-color: rgba(0, 57, 97,0);</string>
+   </property>
+   <property name="text">
+    <string>Dati Paziente</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>100</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat Medium</family>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+background-color: rgba(0, 57, 97,0);
+color: rgb(230, 235, 239);
+border: 0px solid rgba(230, 235, 239,0.6);
+border-radius: 6px;
+
+}
+
+QComboBox::drop-down {
+image: url(:/newPrefix/UI UFFICIALI/MATERIALE/freccia.png);
+width: 20px; 
+height: 20px;
+padding: 5px;
+}
+
+QComboBox QAbstractItemView {
+/* Personalizza il menu a discesa */
+        /* Definire le altre proprietà di stile per il menu a discesa qui */
+background-color: rgba(40, 40, 40,0.5);
+color: rgb(230, 235, 239);
+border-radius: 6px;
+        
+    }
+</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <property name="currentText">
+    <string>Verde</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="maxVisibleItems">
+    <number>3</number>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>14</width>
+     <height>14</height>
+    </size>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string>Verde</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Giallo</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rosso</string>
+    </property>
+   </item>
+  </widget>
+  <zorder>Back</zorder>
+  <zorder>Sheda</zorder>
+  <zorder>InformazioniProfilo</zorder>
+  <zorder>ButtonAnnulla</zorder>
+  <zorder>ButtonPrenota</zorder>
+  <zorder>label_3</zorder>
+  <zorder>textEdit</zorder>
+  <zorder>LogoPrenotazioni</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_4</zorder>
+  <zorder>comboBox</zorder>
+ </widget>
+ <resources>
+  <include location="../../../../../../asa.qrc"/>
+ </resources>
+ <connections/>
+</ui>
